@@ -1,0 +1,153 @@
+2025-07-09 21:16:53,067 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2025-07-09 21:16:53,069 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2025-07-09 21:16:53,072 DEBUG    root            Running [gcloud.components.update] with arguments: [--quiet: "True", COMPONENT-IDS:8: "['gcloud', 'core', 'bq', 'gsutil', 'compute', 'preview', 'alpha', 'beta']"]
+2025-07-09 21:16:53,073 INFO     ___FILE_ONLY___ Beginning update. This process may take several minutes.
+
+2025-07-09 21:16:53,082 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-07-09 21:16:53,986 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/11" 200 239798
+2025-07-09 21:16:54,000 WARNING  root            Component [compute] no longer exists.
+2025-07-09 21:16:54,001 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,002 INFO     ___FILE_ONLY___ 
+Your current Google Cloud CLI version is: 529.0.0
+
+2025-07-09 21:16:54,002 INFO     ___FILE_ONLY___ Installing components from version: 529.0.0
+
+2025-07-09 21:16:54,002 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,002 DEBUG    root            Chosen display Format:table[box,title="These components will be removed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2025-07-09 21:16:54,003 DEBUG    root            Chosen display Format:table[box,title="These components will be updated."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2025-07-09 21:16:54,003 DEBUG    root            Chosen display Format:table[box,title="These components will be installed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2025-07-09 21:16:54,018 INFO     ___FILE_ONLY___ ┌────────────────────────────────────────────────┐
+2025-07-09 21:16:54,018 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,018 INFO     ___FILE_ONLY___ │      These components will be installed.       │
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ ├─────────────────────────┬────────────┬─────────┤
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ │           Name          │  Version   │   Size  │
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ ├─────────────────────────┼────────────┼─────────┤
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ gcloud Alpha Commands  
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ 2025.06.27
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ < 1 MiB
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ │
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,019 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ gcloud Beta Commands   
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ 2025.06.27
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ < 1 MiB
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ │
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ gcloud Preview Commands
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___           
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ │ 
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ < 1 MiB
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___  
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ │
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,020 INFO     ___FILE_ONLY___ └─────────────────────────┴────────────┴─────────┘
+2025-07-09 21:16:54,021 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,021 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:54,024 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-07-09 21:16:54,942 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/RELEASE_NOTES HTTP/11" 200 1444035
+2025-07-09 21:16:55,412 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2025-07-09 21:16:55,412 INFO     ___FILE_ONLY___ Performing in place update...
+
+
+2025-07-09 21:16:55,414 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2025-07-09 21:16:55,414 INFO     ___FILE_ONLY___ ╠═ Downloading: gcloud Alpha Commands                       ═╣
+
+2025-07-09 21:16:55,414 INFO     ___FILE_ONLY___ ╚
+2025-07-09 21:16:55,418 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-07-09 21:16:56,371 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20250627154417.tar.gz HTTP/11" 200 800
+2025-07-09 21:16:56,372 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2025-07-09 21:16:56,372 INFO     ___FILE_ONLY___ ╝
+
+2025-07-09 21:16:56,374 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2025-07-09 21:16:56,374 INFO     ___FILE_ONLY___ ╠═ Downloading: gcloud Beta Commands                        ═╣
+
+2025-07-09 21:16:56,374 INFO     ___FILE_ONLY___ ╚
+2025-07-09 21:16:56,378 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-07-09 21:16:57,279 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20250627154417.tar.gz HTTP/11" 200 797
+2025-07-09 21:16:57,280 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2025-07-09 21:16:57,280 INFO     ___FILE_ONLY___ ╝
+
+2025-07-09 21:16:57,282 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2025-07-09 21:16:57,282 INFO     ___FILE_ONLY___ ╠═ Downloading: gcloud Preview Commands                     ═╣
+
+2025-07-09 21:16:57,282 INFO     ___FILE_ONLY___ ╚
+2025-07-09 21:16:57,285 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-07-09 21:16:58,217 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-preview-20241115154308.tar.gz HTTP/11" 200 823
+2025-07-09 21:16:58,218 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2025-07-09 21:16:58,218 INFO     ___FILE_ONLY___ ╝
+
+2025-07-09 21:16:58,220 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2025-07-09 21:16:58,220 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Alpha Commands                        ═╣
+
+2025-07-09 21:16:58,220 INFO     ___FILE_ONLY___ ╚
+2025-07-09 21:16:58,221 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2025-07-09 21:16:58,222 INFO     ___FILE_ONLY___ ╝
+
+2025-07-09 21:16:58,229 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2025-07-09 21:16:58,229 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Beta Commands                         ═╣
+
+2025-07-09 21:16:58,229 INFO     ___FILE_ONLY___ ╚
+2025-07-09 21:16:58,230 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2025-07-09 21:16:58,230 INFO     ___FILE_ONLY___ ╝
+
+2025-07-09 21:16:58,236 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2025-07-09 21:16:58,236 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Preview Commands                      ═╣
+
+2025-07-09 21:16:58,236 INFO     ___FILE_ONLY___ ╚
+2025-07-09 21:16:58,237 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2025-07-09 21:16:58,237 INFO     ___FILE_ONLY___ ╝
+
+2025-07-09 21:16:58,243 DEBUG    root            Updating notification cache...
+2025-07-09 21:16:58,243 INFO     ___FILE_ONLY___ 
+
+2025-07-09 21:16:58,245 INFO     ___FILE_ONLY___ Performing post processing steps...
+2025-07-09 21:16:58,246 DEBUG    root            Executing command: ['/tools/google-cloud-sdk/bin/gcloud', 'components', 'post-process']
+2025-07-09 21:17:08,811 DEBUG    ___FILE_ONLY___ 
+2025-07-09 21:17:08,811 DEBUG    ___FILE_ONLY___ 
+2025-07-09 21:17:09,014 INFO     root            descriptor_list: [{'universeDomain': 'googleapis.com', 'universeShortName': '', 'authenticationDomain': 'auth.cloud.google.com', 'projectPrefix': '', 'cloudWebDomain': 'cloud.google.com', 'documentationDomain': 'cloud.google.com', 'version': '1.0.0', 'state': 'primary', 'artifactRegistryDomain': 'pkg.dev'}]
+2025-07-09 21:17:09,015 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2025-07-09 21:17:09,017 DEBUG    root            Chosen display Format:none
+2025-07-09 21:17:09,018 INFO     root            Display format: "none"
