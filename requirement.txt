@@ -1,0 +1,36 @@
+This following file includes all libraries needed to execute the code and reproduce results from scratch (including model training, Captum, GraphLIME, and PGExplainer):
+
+# Core packages
+torch>=2.0.0
+torch-geometric>=2.4.0
+torch-scatter
+torch-sparse
+
+# Explainability & ML
+scikit-learn>=1.0.2
+rdflib>=6.0.0
+
+# Visualization
+matplotlib>=3.5.0
+networkx>=2.6.3
+
+# Utilities
+tqdm
+
+
+I worked in Google Colab environment and Installed all the dependencies through these cmds>
+
+#setup for libs
+!pip install --quiet --force-reinstall numpy==1.26.4
+!pip install --quiet torch==2.1.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+!pip install --quiet torch-scatter -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
+!pip install --quiet torch-sparse -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
+!pip install --quiet torch-geometric
+!pip install --quiet rdflib pandas matplotlib
+!pip install numpy==1.26.4 --force-reinstall
+# Install correct PyTorch and PyG versions (for CUDA 11.7)
+!pip install torch==2.0.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+!pip install torch-geometric -U
+!pip install captum
+!apt-get install -y graphviz
+!pip install graphlime
